@@ -1,4 +1,4 @@
-"use-strict";
+"use strict";
 (function() {
 
   var context = ""; // we want context to be global
