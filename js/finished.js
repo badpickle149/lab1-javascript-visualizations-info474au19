@@ -164,7 +164,18 @@ function drawRegressionLine() {
 /*********************************************************
                       Regression Functions
 *********************************************************/
-
+/*
+ * You don't need to know the details of the functions below
+ * the only thing you need to know is the linearRegression functions takes 
+ * as parameters two arrays and returns an object with two fields
+ * 
+ * independent -> array of data that is your x-axis data
+ * dependent -> array of data that is your y-axis data
+ * 
+ * @return lr {Object} -> this object has two fields: a and b
+ * these fields fit into the equation for a linear trendline
+ * y = ax + b
+**/
 function linearRegression(independent, dependent)
 {
     let lr = {};
